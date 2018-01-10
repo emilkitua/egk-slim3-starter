@@ -42,6 +42,10 @@
         "post-root-package-install": [
             "php -r \"file_exists('.env') || copy('.env.example', '.env');\""
         ]
-    }
+    },
+    "repositories": [
+        {"type": "composer", "url": "https://repo.packagist.com/egk-tech/"},
+        {"packagist.org": false}
+    ]
 
 }
