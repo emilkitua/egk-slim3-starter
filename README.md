@@ -9,13 +9,13 @@ This skeleton application was built for Composer. This makes setting up a new Sl
 Clone or download from git and install all the packages from composer.json by writing the below code.
 	` php composer.phar install `
 
-/* Run this command from the directory in which you want to install your new Slim Framework application.
+<!-- Run this command from the directory in which you want to install your new Slim Framework application. -->
 
-   php composer.phar create-project emilkitua/egk-slim3-starter/ [my-app-name] 
+<!--   php composer.phar create-project emilkitua/egk-slim3-starter/ [my-app-name] -->
 
-Replace `[my-app-name]` with the desired directory name for your new application. */
+<!-- Replace `[my-app-name]` with the desired directory name for your new application. -->
 
-# You'll want to:
+## You'll want to:
 
 * Point your virtual host document root to your new application's `public/` directory.
 * Ensure `logs/` is web writeable.
