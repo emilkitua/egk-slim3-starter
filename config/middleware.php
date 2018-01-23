@@ -29,3 +29,4 @@ $app->add(new \App\Http\Middleware\OldInputMiddleware($container));
 $app->add(new \App\Http\Middleware\CsrfViewMiddleware($container));
 
 $app->add($container->csrf);
+$container->csrf->setPersistentTokenMode(false); //set true if you want to use the same token multiple times on the same page 
